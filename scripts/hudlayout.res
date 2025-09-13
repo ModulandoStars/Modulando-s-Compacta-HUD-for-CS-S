@@ -3,18 +3,19 @@
 	HudHealth
 	{
 		"fieldName"		"HudHealth"
-		"xpos"	"16"
-		"ypos"	"443"
-		"wide"	"640"
-		"tall"	"480"
+		"xpos"	"c-190"
+		"ypos"	"c50"
+		"wide"	"50"
+		"tall"	"30"
 		"visible" "1"
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 168"
 		
-		"icon_xpos"	"0"
+		"icon_xpos"	"-50"
 		"icon_ypos"	"0"
-		"digit_xpos" "33"
+		"digit_xpos" "5"
 		"digit_ypos" "0"
 
         "MinHealthColor"    "HudColor"
@@ -97,18 +98,19 @@ HudHDRDemo
 	HudArmor
 	{
 		"fieldName"		"HudArmor"
-		"xpos"	"156"
-		"ypos"	"443"
-		"wide"	"640"
-		"tall"	"480"
+		"xpos"	"c-190"
+		"ypos"	"c80"
+		"wide"	"50"
+		"tall"	"30"
 		"visible" "1"
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 168"
 		
-		"icon_xpos"	"0"
+		"icon_xpos"	"-50"
 		"icon_ypos"	"0"
-		"digit_xpos" "33"
+		"digit_xpos" "5"
 		"digit_ypos" "0"
 	}
 	
@@ -150,7 +152,7 @@ HudHDRDemo
 	{
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
-		"ypos"	"444"
+		"ypos"	"top"
 		"wide"	"640"
 		"tall"	"480"
 		"visible" "1"
@@ -166,11 +168,13 @@ HudHDRDemo
 		"digit_ypos" "-1"
 	}
 
+	// tags to make easy to 'ctrl + F'
+	// money, balance, cash, 
 	HudAccount
 	{
 		"fieldName" "HudAccount"
-		"xpos"	"r135"
-		"ypos"	"377"
+		"xpos"	"c-35"
+		"ypos"	"top50"
 		"wide"	"640"
 		"tall"	"480"
 		"visible" "1"
@@ -270,27 +274,28 @@ HudHDRDemo
 	HudAmmo
 	{
 		"fieldName" "HudAmmo"
-		"xpos"	"r150"
-		"ypos"	"443"
-		"wide"	"640"
-		"tall"	"480"
+		"xpos"	"c150"
+		"ypos"	"c50"
+		"wide"	"90"
+		"tall"	"60"
 		"visible" "1"
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 168"
 
 		"digit_xpos" "0"
 		"digit_ypos" "2"
-		"digit2_xpos" "55"
-		"digit2_ypos" "2"
+		"digit2_xpos" "40"
+		"digit2_ypos" "25"
 	
-		"bar_xpos"		"46"
+		"bar_xpos"		"-5"
 		"bar_ypos"		"7"
 		"bar_height"	"20"
 		"bar_width"		"2"
 
-		"icon_xpos"		"103"
-		"icon_ypos"		"8"
+		"icon_xpos"		"-55"
+		"icon_ypos"		"-55"
 	}
 	
 	HudFlashlight
